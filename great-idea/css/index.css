@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .header-box {
-	border: 2px dashed fuchsia;
+	/*border: 2px dashed fuchsia;*/
 	width: 1000px;
 	margin: auto;
 	padding-top: 40px;
@@ -181,13 +181,32 @@ button {
 /* Stying for Services page starts here */
 
 .services-top-section{
-	border: 1px dashed blue;
-	width: 990px;
-	margin: auto;
-	padding: 40px;
+	border-bottom: 1px solid black;
+	width: 900px;
+	margin: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
-.services-header-img {
-	margin: auto;
-	padding-left: 25px;s
+.services-top-img {
+	/*border: 1px dashed yellow;*/
+	width: 900px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.services-top-text {
+	/*border: 1px dashed red;*/
+	width: 900px;
+	margin-bottom: 30px;
+}
+
+#top-text {
+	font-size: 24px;
+}
+
+.services-main-box {
+	border: 1px dashed purple;
+	width: 1000px;
 }
