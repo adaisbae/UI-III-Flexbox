@@ -207,6 +207,24 @@ button {
 }
 
 .services-main-box {
-	border: 1px dashed purple;
-	width: 1000px;
+	border-bottom: 2px solid black;
+	width: 900px;
+	margin: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.services-text-box {
+	border: 1px solid black;
+	width: 400px;
+	height: 225px;
+	margin: 20px;
+	padding: 20px;
+	background: rgb(222, 226, 230);
+
+}
+
+.services-main-button {
+	border-radius: 7%;
 }
