@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
-	border: 1px dashed red;
+	/*border: 1px dashed red;*/
 	width: 1040px;
 	margin: auto;
 	padding-left: 35px;
@@ -227,4 +227,37 @@ button {
 
 .services-main-button {
 	border-radius: 7%;
+}
+
+.services-bottom-section {
+	/*border: 1px dashed red;*/
+	width: 900px;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.services-bottom-text {
+	/*border: 1px dashed green;*/
+	width: 500px;
+	font-size: 18x;
+	margin: 30px;
+}
+
+li {
+	list-style-type: square;
+}
+
+.services-bottom-img {
+	/*border: 1px dashed blue;*/
+	width: 430px;
+	margin: 30px;
+}
+
+.services-footer-box {
+	/*border: 1px dashed violet;*/
+	width: 300px;
+	margin: 30px auto;
+	padding: 30px;
+	text-align: center;
 }
