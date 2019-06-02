@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .header-box {
-	border: 2px dashed fuchsia;
+	/*border: 2px dashed fuchsia;*/
 	width: 1020px;
 	margin: auto;
 	padding-top: 40px;
@@ -160,4 +160,19 @@ button {
 .img-box2 {
 	/*border: 3px dashed yellow;*/
 	width: 885px;
+}
+
+.footer-container {
+	/*border: 2px dashed purple;*/
+	width: 300px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding-left: 30px;
+}
+
+.copyright {
+	/*border: 1px dashed red;*/
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 70px;
 }
