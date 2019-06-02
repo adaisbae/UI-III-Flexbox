@@ -134,3 +134,25 @@ button {
 	padding-left: 115px;
 }
 
+.main-box {
+	border: 2px dashed green;
+	width: 1020px;
+	margin: auto;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.top-box {
+	border: 1px dashed blue;
+	width: 350px;
+}
+
+.bottom-box {
+	border: 1px dashed red;
+	width: 250px;
+}
+
+.img-box2 {
+	border: 3px dashed yellow;
+	width: 885px;
+}
