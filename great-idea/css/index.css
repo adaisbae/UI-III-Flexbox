@@ -135,24 +135,27 @@ button {
 }
 
 .main-box {
-	border: 2px dashed green;
-	width: 1020px;
+	border-bottom: 1px solid black;
+	width: 980px;
 	margin: auto;
 	display: flex;
 	flex-flow: row wrap;
+	justify-content: space-evenly;
 }
 
 .top-box {
-	border: 1px dashed blue;
-	width: 350px;
+	/*border: 1px dashed blue;*/
+	width: 410px;
+	margin: 20px;
 }
 
 .bottom-box {
-	border: 1px dashed red;
+	/*border: 1px dashed red;*/
 	width: 250px;
+	margin: 25px
 }
 
 .img-box2 {
-	border: 3px dashed yellow;
+	/*border: 3px dashed yellow;*/
 	width: 885px;
 }
