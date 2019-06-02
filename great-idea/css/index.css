@@ -64,3 +64,200 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	/*border: 1px dashed red;*/
+	width: 1040px;
+	margin: auto;
+	padding-left: 35px;
+}
+
+.header-box {
+	/*border: 2px dashed fuchsia;*/
+	width: 1000px;
+	margin: auto;
+	padding-top: 40px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav {
+	/*border: 2px dashed black;*/
+	width: 800px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+ .header-logo {
+	 /*border: 2px dashed orange;*/
+	 width: 200px;
+ }
+
+ nav a {
+	 font-size: 16px;
+	 text-decoration: none;
+	 color: slategrey;
+ }
+
+ .first-section {
+	 border-bottom: 1px solid black;
+	 width: 970px;
+	 margin: auto;
+	 display: flex;
+	 justify-content: space-around;
+ }
+
+.first-section .button-box {
+	/*border: 1px dashed yellow;*/
+	width: 485px;
+	margin: 50px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 75px;
+	text-align: center;
+}
+
+button {
+	border: 1px solid black;
+	width: 160px;
+	height: 35px;
+	background:  white;
+		
+}
+
+.first-section .img-box{
+	/*border: 1px dashed green;*/
+	width: 485px;
+	margin: 50px 20px;
+	padding-left: 115px;
+}
+
+.main-box {
+	border-bottom: 1px solid black;
+	width: 980px;
+	margin: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+}
+
+.top-box {
+	/*border: 1px dashed blue;*/
+	width: 410px;
+	margin: 30px;
+}
+
+.bottom-box {
+	/*border: 1px dashed red;*/
+	width: 250px;
+	margin: 30px
+}
+
+.img-box2 {
+	/*border: 3px dashed yellow;*/
+	width: 885px;
+}
+
+.footer-container {
+	/*border: 2px dashed purple;*/
+	width: 300px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding-left: 30px;
+}
+
+.copyright {
+	/*border: 1px dashed red;*/
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 70px;
+}
+
+/* Stying for Services page starts here */
+
+.services-top-section{
+	border-bottom: 1px solid black;
+	width: 900px;
+	margin: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.services-top-img {
+	/*border: 1px dashed yellow;*/
+	width: 900px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.services-top-text {
+	/*border: 1px dashed red;*/
+	width: 900px;
+	margin-bottom: 30px;
+}
+
+#top-text {
+	font-size: 24px;
+}
+
+.services-main-box {
+	border-bottom: 2px solid black;
+	width: 900px;
+	margin: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.services-text-box {
+	border: 1px solid black;
+	width: 400px;
+	height: 225px;
+	margin: 20px;
+	padding: 20px;
+	background: rgb(222, 226, 230);
+
+}
+
+.services-main-button {
+	border-radius: 7%;
+}
+
+.services-bottom-section {
+	/*border: 1px dashed red;*/
+	width: 900px;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.services-bottom-text {
+	/*border: 1px dashed green;*/
+	width: 500px;
+	font-size: 18x;
+	margin: 30px;
+}
+
+li {
+	list-style-type: square;
+}
+
+.services-bottom-img {
+	/*border: 1px dashed blue;*/
+	width: 430px;
+	margin: 30px;
+}
+
+.services-footer-box {
+	/*border: 1px dashed violet;*/
+	width: 300px;
+	margin: 30px auto;
+	padding: 30px;
+	text-align: center;
+}
