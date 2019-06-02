@@ -101,7 +101,7 @@ nav {
  .first-section {
 	 border-bottom: 1px solid black;
 	 width: 970px;
-	 margin: 50px auto;
+	 margin: auto;
 	 display: flex;
 	 justify-content: space-around;
  }
@@ -109,6 +109,7 @@ nav {
 .first-section .button-box {
 	/*border: 1px dashed yellow;*/
 	width: 485px;
+	margin: 50px 20px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -131,6 +132,7 @@ button {
 .first-section .img-box{
 	/*border: 1px dashed green;*/
 	width: 485px;
+	margin: 50px 20px;
 	padding-left: 115px;
 }
 
@@ -146,13 +148,13 @@ button {
 .top-box {
 	/*border: 1px dashed blue;*/
 	width: 410px;
-	margin: 20px;
+	margin: 30px;
 }
 
 .bottom-box {
 	/*border: 1px dashed red;*/
 	width: 250px;
-	margin: 25px
+	margin: 30px
 }
 
 .img-box2 {
