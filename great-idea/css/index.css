@@ -70,7 +70,50 @@ h1, h2, h3, h4, h5 {
 	margin: auto;
 }
 
+.header-box {
+	border: 2px dashed fuchsia;
+	width: 1020px;
+	margin: auto;
+	padding-top: 40px;
+	display: flex;
+	justify-content: flex-end;
+}
 
+nav {
+	/*border: 2px dashed black;*/
+	width: 800px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 
+}
+ .header-logo {
+	 /*border: 2px dashed orange;*/
+	 width: 200px;
+ }
 
+ nav a {
+	 font-size: 16px;
+	 text-decoration: none;
+	 color: slategrey;
+ }
 
+ .first-section {
+	 border: 2px dashed blue;
+	 width: 800px;
+	 margin: auto;
+	 display: flex;
+	 justify-content: space-between;
+ }
+
+.first-section .button-box {
+	border: 1px dashed yellow;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+}
+
+.first-section .img-box{
+	border: 1px dashed green;
+	width: 400px;
+}
