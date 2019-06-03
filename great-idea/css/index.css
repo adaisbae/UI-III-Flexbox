@@ -64,3 +64,116 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	/*border: 1px dashed red;*/
+	width: 1040px;
+	margin: auto;
+	padding-left: 35px;
+}
+
+.header-box {
+	/*border: 2px dashed fuchsia;*/
+	width: 1020px;
+	margin: auto;
+	padding-top: 40px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav {
+	/*border: 2px dashed black;*/
+	width: 800px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+ .header-logo {
+	 /*border: 2px dashed orange;*/
+	 width: 200px;
+ }
+
+ nav a {
+	 font-size: 16px;
+	 text-decoration: none;
+	 color: slategrey;
+ }
+
+ .first-section {
+	 border-bottom: 1px solid black;
+	 width: 970px;
+	 margin: auto;
+	 display: flex;
+	 justify-content: space-around;
+ }
+
+.first-section .button-box {
+	/*border: 1px dashed yellow;*/
+	width: 485px;
+	margin: 50px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 75px;
+	text-align: center;
+}
+
+button {
+	border: 1px solid black;
+	width: 160px;
+	height: 35px;
+	background:  white;
+		
+}
+
+.first-section .img-box{
+	/*border: 1px dashed green;*/
+	width: 485px;
+	margin: 50px 20px;
+	padding-left: 115px;
+}
+
+.main-box {
+	border-bottom: 1px solid black;
+	width: 980px;
+	margin: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+}
+
+.top-box {
+	/*border: 1px dashed blue;*/
+	width: 410px;
+	margin: 30px;
+}
+
+.bottom-box {
+	/*border: 1px dashed red;*/
+	width: 250px;
+	margin: 30px
+}
+
+.img-box2 {
+	/*border: 3px dashed yellow;*/
+	width: 885px;
+}
+
+.footer-container {
+	/*border: 2px dashed purple;*/
+	width: 300px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding-left: 30px;
+}
+
+.copyright {
+	/*border: 1px dashed red;*/
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 70px;
+}
