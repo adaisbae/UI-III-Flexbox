@@ -89,3 +89,8 @@ nav a{
     color: gray;
     text-decoration: none;
 }
+
+main{
+    max-width: 90%;
+    
+}
