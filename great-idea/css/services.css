@@ -62,3 +62,15 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+/* begin styling */
+
+.container{
+    max-width: 90%;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.header{
+    display: flex;
+}
