@@ -88,3 +88,8 @@ nav a{
     color: gray;
     text-decoration: none;
 }
+
+footer{
+    text-align: center;
+    margin: 50px 0px; 
+}
