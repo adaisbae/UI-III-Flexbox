@@ -148,10 +148,29 @@ main img{
 
 .bottom{
     display: flex;
+    justify-content: space-around;
+    margin: 40px 0px;
 }
 
 .bottom-text{
     max-width: 50%;
+}
+
+.bottom-text h2{
+    font-size: 16px;
+}
+
+.bottom-text p{
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style: square;
+    margin-left: 10px;
+  }
+
+li{
+    margin: 10px;
 }
 
 .bottom-img{
