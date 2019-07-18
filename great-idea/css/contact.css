@@ -131,8 +131,35 @@ main{
 .details-area{
     flex: 1;
     order: 1;
+    margin-right: 20px;
 }
 
+.details-area input{
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.details-area input, button{
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.details-area button{
+    background: rgb(31, 140, 241);
+    color: #fff;
+    border: 0;
+    padding: 15px 50px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+label{
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 60px;
+}
 
 footer{
     text-align: center;
