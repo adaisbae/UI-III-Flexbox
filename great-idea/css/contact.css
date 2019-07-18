@@ -98,39 +98,8 @@ nav a{
 }
 
 .top h1{
-    font-size: 28px;
+    font-size: 36px;
     text-align: center;
-}
-
-main{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-main h1{
-    font-size: 16px;
-    margin: 10px;
-}
-
-.blurb{
-    width: 50%;
-    border: 1px solid black;
-}
-
-.address{
-    width: 40%;
-    border: 1px solid black;
-}
-
-.form{
-    width: 50%;
-    border: 1px solid black;
-}
-
-.info{
-    width: 40%;
-    border: 1px solid black;
 }
 
 
