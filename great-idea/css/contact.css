@@ -89,6 +89,51 @@ nav a{
     text-decoration: none;
 }
 
+#big{
+    margin-bottom: 30px;
+}
+
+.top{
+    margin-bottom: 40px;
+}
+
+.top h1{
+    font-size: 28px;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+main h1{
+    font-size: 16px;
+    margin: 10px;
+}
+
+.blurb{
+    width: 50%;
+    border: 1px solid black;
+}
+
+.address{
+    width: 40%;
+    border: 1px solid black;
+}
+
+.form{
+    width: 50%;
+    border: 1px solid black;
+}
+
+.info{
+    width: 40%;
+    border: 1px solid black;
+}
+
+
 footer{
     text-align: center;
     margin: 50px 0px; 
