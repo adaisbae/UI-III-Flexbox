@@ -102,6 +102,37 @@ nav a{
     text-align: center;
 }
 
+main{
+    width: 800px;
+    margin: 5% auto;
+}
+
+.form-area{
+    display: flex;
+    background: rgb(231, 229, 229);
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.msg-area{
+    display: flex;
+    flex-direction: column;
+    order: 2; /*controls the order in which the item appears in the container*/
+}
+
+.msg-area > textarea{
+    flex: 1; /*set the textarea to grow larger than the other items as needed. default is 0*/
+    min-width: 20px;
+    background: transparent;
+    color: #fff;
+    padding: 15px;
+}
+
+.details-area{
+    flex: 1;
+    order: 1;
+}
+
 
 footer{
     text-align: center;
