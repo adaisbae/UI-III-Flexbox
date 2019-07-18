@@ -98,6 +98,19 @@ main{
 main img{
     width: 1024px;
 }
+
+.main-img{
+    margin-bottom: 30px;
+}
+
+.main-text{
+    margin-bottom: 40px;
+}
+
+.main-text h1{
+    font-size: 24px;
+}
+
 .cards{
     display: flex;
     justify-content: center;
