@@ -113,29 +113,37 @@ main img{
 
 .cards{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 40px;
 }
 
 
 .card{
-    background: rgb(168, 167, 167);
+    background: rgb(231, 229, 229);
     max-width: 45%;
-    margin: 15px;
-    padding: 15px;
+    margin-bottom: 30px;
+    padding: 15px 20px;
     border: 1px solid black;
 }
 
 .card h2{
     margin: 10px;
+    font-size: 18px;
 }
 
 .card p{
     margin: 10px;
+    font-size: 16x;
 }
 
 .card button{
     margin: 10px;
+    padding: 10px 30px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 6px;
 }
 
 .bottom{
