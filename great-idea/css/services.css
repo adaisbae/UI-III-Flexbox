@@ -70,12 +70,6 @@ h1, h2, h3, h4, h5 {
     width: 1024px;
 }
 
-@media(max-width: 500px){
-    .container{
-        margin: auto;
-        width: 500px;
-    }
-}
 
 .header{
     max-width: 100%;
@@ -107,12 +101,6 @@ main img{
     width: 1024px;
 }
 
-@media(max-width: 500px){
-    main img{
-        max-width: 100%;
-    }
-}
-
 .main-img{
     margin-bottom: 30px;
 }
@@ -132,12 +120,6 @@ main img{
     margin-top: 40px;
 }
 
-@media(max-width: 500px){
-    .cards{
-        flex-direction: column;
-        justify-content: center;
-    }
-}
 
 .card{
     background: rgb(231, 229, 229);
@@ -172,12 +154,6 @@ main img{
     margin: 40px 0px;
 }
 
-@media(max-width: 500px){
-    .bottom{
-        flex-direction: column;
-    }
-}
-
 .bottom-text{
     max-width: 50%;
 }
@@ -209,3 +185,27 @@ footer{
 }
 
 /*media queries*/
+
+@media(max-width: 500px){
+    .container{
+        margin: auto;
+        width: 500px;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    main img{
+        max-width: 100%;
+    }
+
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .bottom{
+        flex-direction: column;
+    }
+}
