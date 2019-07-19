@@ -192,6 +192,10 @@ footer{
         width: 500px;
     }
 
+    nav{
+        justify-content: space-around;
+    }
+
     .logo{
         display: none;
     }
@@ -200,12 +204,29 @@ footer{
         max-width: 100%;
     }
 
+    .main-text{
+        padding: 10px;
+    }
+
     .cards{
         flex-direction: column;
         justify-content: center;
+        align-content: center;
+    }
+
+    .card{
+        max-width: 95%;
     }
 
     .bottom{
-        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .bottom-img{
+        max-width: 100%;
+    }
+
+    .bottom-img img{
+        width: 500px;
     }
 }
