@@ -224,9 +224,15 @@ footer{
 
     .bottom-img{
         max-width: 100%;
+        margin-bottom: 30px;
     }
 
     .bottom-img img{
         width: 500px;
+    }
+
+    .bottom-text{
+        max-width: 100%;
+        padding: 10px;
     }
 }
